@@ -1,8 +1,8 @@
 # URL-Shortener
 這是一個 Node.js + Express 連結資料庫，打造的短網址產生器
 - demo：https://stark-ridge-93483.herokuapp.com/
-- 
-![image](https://github.com/RunChenn/Expense-Tracker/blob/main/expense-tracker.png)
+
+![image](https://github.com/RunChenn/Short-URL-Generator/blob/main/URL-shortener.png)
 
 ## Features - 產品功能
 - 首頁可以產生短網址
