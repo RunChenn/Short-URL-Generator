@@ -4,13 +4,13 @@ const methodOverride = require('method-override');
 const routes = require('./routes');
 require('./config/mongoose');
 
+
 const app = express();
 const PORT = process.env.PORT || 3000
 
 app.engine('hbs', exphbs({
     defaultLayout: 'main',
     extname: '.hbs',
-    helpers: require('./public/javascripts/handlebarHelpers')
 }));
 app.set('view engine', 'hbs');
 app.use(express.static('public'));
