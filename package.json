@@ -1,0 +1,25 @@
+{
+  "name": "short-url-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RunChenn/Short-URL-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RunChenn/Short-URL-Generator/issues"
+  },
+  "homepage": "https://github.com/RunChenn/Short-URL-Generator#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "nodemon": "^2.0.12"
+  }
+}
