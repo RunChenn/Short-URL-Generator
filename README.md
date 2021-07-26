@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # URL-Shortener
 這是一個 Node.js + Express 連結資料庫，打造的短網址產生器
 ![image](https://github.com/RunChenn/Expense-Tracker/blob/main/expense-tracker.png)
@@ -19,13 +18,13 @@
 1. 打開你的 terminal，Clone 此專案至本機電腦
 
 ```
-git clone https://github.com/RunChenn/Expense-Tracker.git
+git clone https://github.com/RunChenn/Short-URL-Generator.git
 ```
 
 2. 進入至專案資料夾
 
 ```
-cd expense-tracker
+cd URL-shortener
 ```
 
 3. 安裝 npm 套件
@@ -34,19 +33,13 @@ cd expense-tracker
 npm install
 ```
 
-4. 加入種子資料
-
-```
-npm run seed
-```
-
-5. 執行程式
+4. 執行程式
 
 ```
 npm run dev
 ```
 
-6. 當 terminal 出現以下字樣，代表執行成功
+5. 當 terminal 出現以下字樣，代表執行成功
 
 ```
 Express is listening on localhost: 3000.
@@ -56,6 +49,3 @@ Express is listening on localhost: 3000.
 
 ## Developer
 [Run Chen](https://github.com/RunChenn)# Expense-Tracker
-=======
-# URL-shortener
->>>>>>> 43c66fcadc1e24c4d160f04537c75f96a17617d4
