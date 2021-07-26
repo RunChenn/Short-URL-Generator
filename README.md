@@ -1,6 +1,6 @@
 # URL-Shortener
 這是一個 Node.js + Express 連結資料庫，打造的短網址產生器
-- demo：https://stark-ridge-93483.herokuapp.com/
+- demo：https://damp-wave-20559.herokuapp.com/
 
 ![image](https://github.com/RunChenn/Short-URL-Generator/blob/main/URL-shortener.png)
 
