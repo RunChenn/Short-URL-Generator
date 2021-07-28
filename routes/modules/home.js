@@ -44,7 +44,7 @@ router.get('/:id', (req, res) => {
     Url.find({ shortenId })
         .lean()
         .then(resUrl => {
-            if (resUrl.length === 0)  return res.redirect('/');
+            if (resUrl.length === 0) return res.redirect('/');
             res.redirect(resUrl[0]['originURL'])
         })
         .catch(err => console.error(err))
