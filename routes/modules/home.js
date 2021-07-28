@@ -45,7 +45,7 @@ router.get('/:id', (req, res) => {
         .lean()
         .then(resUrl => {
             if (resUrl.length === 0)  return res.redirect('/');
-            res.redirect(resUrl.originURL)
+            res.redirect(resUrl[0]['originURL'])
         })
         .catch(err => console.error(err))
 })
