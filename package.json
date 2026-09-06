@@ -18,13 +18,16 @@
         "url": "https://github.com/RunChenn/Short-URL-Generator/issues"
     },
     "homepage": "https://github.com/RunChenn/Short-URL-Generator#readme",
+    "engines": {
+        "node": ">=22.22.2"
+    },
     "dependencies": {
-        "body-parser": "^1.19.0",
-        "express": "^4.17.1",
-        "express-handlebars": "^5.3.2",
+        "body-parser": "^2.3.0",
+        "express": "^5.2.1",
+        "express-handlebars": "^9.0.1",
         "method-override": "^3.0.0",
-        "mongoose": "^5.13.3",
-        "nodemon": "^2.0.12",
+        "mongoose": "^8.24.4",
+        "nodemon": "^3.1.14",
         "valid-url": "^1.0.9"
     }
 }

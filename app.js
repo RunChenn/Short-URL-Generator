@@ -1,5 +1,5 @@
 const express = require('express');
-const exphbs = require('express-handlebars');
+const { engine } = require('express-handlebars');
 const methodOverride = require('method-override');
 const routes = require('./routes');
 require('./config/mongoose');
@@ -8,7 +8,7 @@ require('./config/mongoose');
 const app = express();
 const PORT = process.env.PORT || 3000
 
-app.engine('hbs', exphbs({
+app.engine('hbs', engine({
     defaultLayout: 'main',
     extname: '.hbs',
 }));
