@@ -1,2 +1,8 @@
 /node_modules
 .DS_Store
+# local .env files
+.env
+.env.*
+!.env.example
+.env.local
+.env.*.local
