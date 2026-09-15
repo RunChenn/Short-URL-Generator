@@ -8,10 +8,7 @@
   ],
   "functions": {
     "app.js": {
-      "includeFiles": [
-        "views/**",
-        "public/**"
-      ]
+      "includeFiles": "{views,public}/**"
     }
   },
   "routes": [
